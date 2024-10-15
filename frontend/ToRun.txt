@@ -1,0 +1,2 @@
+cd into frontend
+type npm start

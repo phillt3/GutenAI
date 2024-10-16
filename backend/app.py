@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/api', methods=['GET'])
 def index():
-    return {"message": "Hello, World!"}
+    return {"message": "Welcome to Guten AI!"}
 
 if __name__ == '__main__':
     app.run(debug=True)
